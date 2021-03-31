@@ -1,0 +1,6 @@
+Cartyx.bin
+Cartyx.iso
+
+boot.o
+isodir/
+kernel.o
