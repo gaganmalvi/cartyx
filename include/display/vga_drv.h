@@ -1,10 +1,7 @@
 #ifndef VGA_DRV_H
 #define VGA_DRV_H
 
-typedef unsigned char uint8;
-typedef unsigned short uint16;
-typedef unsigned int uint32;
-
+#include "../types.h"
 
 #define VGA_ADDRESS 0xB8000
 #define BUFSIZE 2200
