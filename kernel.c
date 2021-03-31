@@ -3,7 +3,7 @@
 
 void mainfunc();
 
-void kernel_entry()
+void kern_main()
 {
   //first init vga with fore & back colors
   init_vga(WHITE, BLACK);
