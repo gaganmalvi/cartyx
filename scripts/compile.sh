@@ -13,8 +13,8 @@ echo "Building kernel..."
 
 # Compile kernel.c file
 gcc -m32 -c kernel.c -o kernel.o -std=gnu99 -ffreestanding -O2 -Wall -Wextra
-gcc -m32 -c programs/main.c -o main.o -std=gnu99 -ffreestanding -O2 -Wall -Wextra
-gcc -m32 -c drivers/io/char.c -o char.o -std=gnu99 -ffreestanding -O2 -Wall -Wextra
+gcc -m32 -c programs/*.c -o main.o -std=gnu99 -ffreestanding -O2 -Wall -Wextra
+gcc -m32 -c drivers/*/*.c -o char.o -std=gnu99 -ffreestanding -O2 -Wall -Wextra
 
 echo "Linking the kernel..."
 
